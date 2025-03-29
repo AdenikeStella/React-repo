@@ -1,0 +1,126 @@
+
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+.nav{
+   background-color: grey;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px;
+   margin: 0;
+   display: flex;
+  }
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+.nav ul li{
+  float: left;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.nav ul li:hover{
+  background-color: blue;
+  color: aliceblue;
+}
+
+.mainPage{
+  display: flex;
+  height: 500px;
+}
+
+.sideBarComponent{
+  width: 200px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.sideBarComponent button{
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: darkgreen;
+  color: white;
+  margin-top: 10px;
+}
+
+.mainPage_2{
+  background-color: lightyellow;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 500px;
+  padding: 5px;
+  margin: auto;
+}
+
+.promo-section{
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.card{
+  width: 30%;
+  border: 2px solid red;
+  border-radius: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: 10px 10px 5px 5px rgba(155, 255, 150, 0.3);
+  background-color: #898;
+}
+
+.card h2{
+  color: blue;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.card h3{
+  color: aquamarine;
+  text-align: right;
+  background-color: lightseagreen;
+}
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

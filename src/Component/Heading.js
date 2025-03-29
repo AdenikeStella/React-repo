@@ -1,6 +1,6 @@
 function Heading() { 
     return ( 
-      <h1>This is an h1 heading.</h1> 
+      <h1>So I tried creating an emergency branch for practice!</h1> 
     ) 
   };
 

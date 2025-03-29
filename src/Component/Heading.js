@@ -1,6 +1,8 @@
 function Heading() { 
     return ( 
-      <h1>This is an h1 heading.</h1> 
+      <h1>I want to see if I actually know what I'm doing in Git.
+        <br>MO-CHARM-APP</br>
+      </h1>
     ) 
   };
 

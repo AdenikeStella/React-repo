@@ -28,9 +28,10 @@ function App() {
       <div>
         <Sidebar />
       </div>
+      
       <div className='mainPage_2'>
       <div>
-      <Promo heading="Don't Miss This Chance!" promoSubHeading="Sign-up to get 50% discount on your first purchase!"/>
+      <Promo heading = {data.heading} callToAction = {data.callToAction} />
       </div>
 
       
